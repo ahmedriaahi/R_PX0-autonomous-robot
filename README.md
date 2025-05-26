@@ -48,7 +48,7 @@ Make sure to have ROS (e.g., Noetic) and Gazebo installed.
 ```bash
 # Clone the repository into your ROS workspace
 cd ~/catkin_ws/src
-git clone https://github.com/yourusername/r_px0-autonomous-robot.git
+git clone https://github.com/ahmedriaahi/r_px0-autonomous-robot.git
 
 # Build the workspace
 cd ~/catkin_ws
@@ -66,3 +66,4 @@ roslaunch r_px0 gazebo.launch
 # Launch SLAM (if configured)
 roslaunch r_px0 slam.launch
 ```
+
