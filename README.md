@@ -70,7 +70,6 @@ roslaunch r_px0 slam.launch
   <img src="images/Screenshot from 2025-05-26 22-56-04.png" alt="Gazebo Simulation" width="50%" style="margin-right: 10px;"/>
   <img src="SOLIDWORKS/Screenshot 2025-05-25 233130.png" alt="conception in SOLIDWORKS" width="42%"/>
 <p align="center">
-### Example: Robot in RViz
-<img src="images/Screenshot from 2025-05-25 22-53-19.png"  alt="RViz" width="500"/>
+ <img src="images/Screenshot from 2025-05-25 22-53-19.png"  alt="RViz" width="500"/>
 
 
