@@ -7,22 +7,39 @@ ROS-based simulation of the R_PX0 autonomous mobile robot with 3D URDF, Gazebo e
 - **Robot Description**: URDF + STL 3D mesh files
 - **SLAM**: Included (`slam.launch`, maps folder)
 - **CAD**: Full 3D design in SolidWorks (.SLDPRT and .SLDASM)
-
-## 🗂️ Project Structure
-PX.0/
-├── r_px0/
-│   ├── CMakeLists.txt
-│   ├── package.xml
-│   ├── config/
-│   ├── launch/
-│   ├── maps/
-│   ├── meshes/
-│   ├── urdf/
-│   ├── worlds/
-│   ├── images/
-│   └── export.log, frames.pdf, frames.gv
-└── SOLIDWORKS/
-    └── fichiers CAO (.SLDPRT, .SLDASM) + captures
+```bash
+📁 r_px0-autonomous-robot
+ ┣ 📂 r_px0/                     # Main ROS package
+ ┃ ┣ 📂 config/                 # YAML configuration files for joints and control
+ ┃ ┃ ┣ 📜 control.yaml
+ ┃ ┃ ┣ 📜 joint_names_R_PX0.yaml
+ ┃ ┣ 📂 images/                 # Screenshots of RViz, Gazebo, and SLAM
+ ┃ ┣ 📂 launch/                 # ROS launch files
+ ┃ ┃ ┣ 📜 display.launch
+ ┃ ┃ ┣ 📜 gazebo.launch
+ ┃ ┃ ┗ 📜 slam.launch
+ ┃ ┣ 📂 maps/                   # SLAM-generated map and metadata
+ ┃ ┃ ┣ 📜 r_px0_map.pgm
+ ┃ ┃ ┗ 📜 r_px0_map.yaml
+ ┃ ┣ 📂 meshes/                 # STL files for the robot’s 3D model
+ ┃ ┃ ┣ 📦 base_link.STL
+ ┃ ┣ 📂 urdf/                   # Robot URDF and joint data
+ ┃ ┃ ┣ 📜 R_PX0.urdf
+ ┃ ┃ ┗ 📜 R_PX0.csv
+ ┃ ┣ 📂 worlds/                 # Custom Gazebo world for simulation
+ ┃ ┃ ┗ 📜 r_px0_world.world
+ ┃ ┣ 📜 CMakeLists.txt          # Build configuration for ROS
+ ┃ ┣ 📜 package.xml             # ROS package metadata
+ ┃ ┣ 📜 frames.gv               # TF frame diagram source
+ ┃ ┣ 📜 frames.pdf              # TF tree visualization (compiled)
+ ┃ ┗ 📜 export.log              # Export logs or notes
+ ┃
+ ┣ 📂 SOLIDWORKS/               # 3D design files from SolidWorks
+ ┃ ┣ 📦 P1.SLDPRT               # Part 1 model
+ ┃ ┣ 📦 P2.SLDPRT               # Part 2 model
+ ┃ ┣ 📦 R.PX0.SLDASM            # Full robot assembly
+ ┃ ┣ 📷 Screenshot 2025-05-17 210221.png
+```
 
 ## 🧪 How to Launch
 
