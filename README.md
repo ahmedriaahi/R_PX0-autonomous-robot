@@ -43,7 +43,7 @@ ROS-based simulation of the R_PX0 autonomous mobile robot with 3D URDF, Gazebo e
 
 ## 🧪 How to Launch
 
-Make sure to have ROS (e.g., Noetic) and Gazebo installed.
+Make sure to have ROS Noetic and Gazebo installed.
 
 ```bash
 # Clone the repository into your ROS workspace
