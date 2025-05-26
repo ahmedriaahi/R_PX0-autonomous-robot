@@ -67,5 +67,5 @@ roslaunch r_px0 gazebo.launch
 roslaunch r_px0 slam.launch
 ```
 ### Example: Robot in RViz
-![RViz Screenshot](images/Screenshot from 2025-05-25 22-53-19.png)
+![RViz Screenshot](R_PX0-autonomous-robot/images/Screenshot from 2025-05-25 22-53-19.png)
 
