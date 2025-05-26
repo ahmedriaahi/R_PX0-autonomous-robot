@@ -71,7 +71,7 @@ roslaunch r_px0 slam.launch
 
 <p align="center">
   <img src="images/Screenshot from 2025-05-26 22-56-04.png" alt="Gazebo Simulation" width="45%" style="margin-right: 10px;"/>
-  <img src="images/slam_rviz.png" alt="SLAM in RViz" width="45%"/>
+  <img src="SOLIDWORKS/Screenshot 2025-05-25 233130.png" alt="conception in SOLIDWORKS" width="45%"/>
 </p>
 
 
